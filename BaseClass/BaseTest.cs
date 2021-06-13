@@ -25,7 +25,7 @@ namespace way2automation.BaseClass
         [TearDown]
         public void Close()
         {
-            //driver.Quit();
+            driver.Quit();
         }
     }
 }
